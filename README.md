@@ -1,4 +1,4 @@
-# eAppointment
+# eAppointmentServer
 
 eAppointment Project with Asp.Net Core Api 8.0 Clean Architecture;
 
@@ -8,3 +8,5 @@ eAppointment Project with Asp.Net Core Api 8.0 Clean Architecture;
 * I used MSSQL as the database and created tables and maintained relationships using migration with code first approach.
 * For the security of the project, I prevented unauthorized role access by using Json Web Token.
 * I gained experience working with different libraries by using SmartEnum and GenericRepository libraries.
+
+# eAppointmentClient 
