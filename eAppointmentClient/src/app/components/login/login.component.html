@@ -1,14 +1,14 @@
 <div class="row d-flex justify-content-center align-items-center" style="height: 98vh;">
-  <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
     <div class="card">
       <div class="card-header">
         <h3>Sign In</h3>
         <p>Please fill your information to sign in</p>
       </div>
       <div class="card-body">
-        <form formValidate #loginForm="ngForm" autocomplete="off">
+        <form formValidate #loginForm="ngForm" autocomplete="off" (ngSubmit)="signIn(loginForm)">
           <div class="form-group">
-            <label>UserName or Email</label>
+            <label>Username or Email</label>
             <input type="text" class="form-control" [(ngModel)]="login.userNameOrEmail" name="userNameOrEmail" required
               minlength="3">
             <div class="invalid-feedback"></div>
@@ -25,7 +25,7 @@
             }
           </div>
           <div class="for-group mt-2">
-            <button class="btn btn-dark w-100">
+            <button type="submit" class="btn btn-dark w-100">
               <i class="fa-solid fa-lock me-1"></i>
               Sign In
             </button>
