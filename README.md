@@ -10,3 +10,6 @@ eAppointment Project with Asp.Net Core Api 8.0 Clean Architecture;
 * I gained experience working with different libraries by using SmartEnum and GenericRepository libraries.
 
 # eAppointmentClient 
+EAppointmentClient
+This project was generated with Angular CLI version 17.3.2.
+
